@@ -1,0 +1,43 @@
+@media (max-width: 575.98px) {
+    /*body {
+      background: royalblue !important;
+    }*/
+  }
+  
+  @media (min-width: 576px) and (max-width: 767.98px) {
+    /*body {
+      background: red !important;
+    }*/
+    .card-columns {
+      column-count: 1;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /*body {
+      background: green !important;
+    }*/
+  
+    .card-columns {
+      column-count: 2;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    /*body {
+      background: orange !important;
+    }*/
+    .card-columns {
+      column-count: 3;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    /*body {
+      background: purple !important;
+    }*/
+    .card-columns {
+      column-count: 3;
+    }
+  }
+  

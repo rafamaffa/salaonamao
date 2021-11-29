@@ -62,6 +62,7 @@ h2{
 .ubuntu { 
     font-family: ubuntu;
     color: #fff;
+    letter-spacing: -3px;
 }
 
 .gradient {
@@ -112,3 +113,72 @@ h2{
 .tl{
     text-align: left;
 }
+
+#section-comments-text {
+    margin-top: -200px;
+    z-index: 999;
+    position: relative;
+  }
+.single-comment {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 21px;
+        width: 420px;
+        margin: 10px;
+  }
+  
+  .single-comment img {
+    width: 70px !important;
+    height: 70px !important;
+    border: 2px solid #fa643d;
+    padding: 3px;
+  }
+  
+  .single-comment span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .single-comment small {
+    opacity: 0.5;
+    margin-top: -3px;
+  }
+
+  .ml-3{
+    text-align: justify;
+    margin-left: 20px;
+  }
+
+  .ps{
+    font-family: ubuntu-regular;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -2px
+  }
+
+  .pv{
+    font-size: 3.9em;
+    margin-top: 50px;
+    font-family: 'ubuntu';
+    margin-bottom: 30px;
+  }
+
+  .btn-acesso-v{
+    width: 350px;
+    height: 52.1px;
+    font-family: roboto-bold;
+    font-size: 17px;
+    line-height: 28px;
+    color: #fff;
+    margin-top: 80px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,90,40,1) 0%, rgba(228,0,131,1) 100%);
+    border: 0;
+}
+
+.wpp{
+    font-family: ubuntu;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1px;
+    color: #00A859;
+}
+  

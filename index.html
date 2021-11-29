@@ -12,6 +12,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -19,7 +20,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <section class="container">
         <div class="row">
             <div class="col-12 logotipo">
                 <img src="assets/img/logo.png" alt="">
@@ -45,9 +46,9 @@
                 <img src="assets/img/pagamento.png" alt="">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section class="container">
         <div class="row" style="margin-top: 150px;">
             <div class="col-4 center">
                 <img src="assets/img/img_avatar.png" alt="Avatar" class="avatar">
@@ -72,9 +73,9 @@
 
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section class="container">
         <div class="row" style="margin-top: 150px;">
             <div class="col-6">
                 <img src="assets/img/section3.png">
@@ -91,9 +92,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container" style="margin-top: 200px;">
+    <section class="container" style="margin-top: 200px;">
         <div class="row">
             <div class="col-12">
                 <p class="center">Assista agora o</p>
@@ -112,28 +113,210 @@
                 <img src="assets/img/pagamento.png" alt="">
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container" style="margin-top: 200px;">
+    <section class="container" style="margin-top: 200px;" id="section-comments-text">
         <div class="row">
             <div class="col-12">
                 <h1 class="ubuntu" style="text-align: center;">O que nossos alunos <span class="gradient">Falam sobre o
-                        curso?</span></h1>
+                        curso?</span></h1><br><br>
             </div>
             <div class="col-12 center ">
-                <img src="assets/img/alunos.png" alt="">
+                <div class="card-columns row">
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">
+                            Cara eu fiquei pasmo! Nunca tinha visto um desenvolvedor organizar o
+                            conteudo do Design de Interface/Banco de Dados até o BackEnd e App
+                            Mobile!!! Conteúdo top demais!!! Se eu não virar aluno agora, vou
+                            virar no futuro com certeza!
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLTJxzNhLyquZJnbOhMnWGhk5OhauuJzkl2PDZDcbw=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Josué Barros</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">
+                            Eu tive um teste pra fazer de uma empresa e olhei (acompanhei) como
+                            você fez as coisas no projeto React Native da netflix e eu só tinha
+                            conhecimento em JS... tive a resposta hoje do RH falando que fui
+                            aceito!!!!
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt4.ggpht.com/ytc/AKedOLTEh7c-GaXV0lDPzot6jtHe7fCZ8I60GHK5LnooEWU=s32-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Matheus Lira</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">
+                            O que mais me impressiona é o conteúdo totalmente gratuito, vocês
+                            são de mais! ❤️
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLRlg6Mf9OkSXdInyU_a6F2R6K8gIyjefXjwWIpw=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Rodrigo Paulo</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">
+                            Parabens meu amigo. Sei que nao é facil produzir um contéudo desses
+                            de qualidade e completo do inicio ao avançado com todo o passo a
+                            passo. Material esse que as vezes nem pago voce encontra. Sem falar
+                            da didática que é muito boa.
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLSCHEZapn-gXqtmyJ9HN4mgeBJNBSzBDccMpGQD=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Wenerson Venâncio</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">
+                            Fui convidade por uma empresa gringa de Blockchain para ser dev
+                            front-end... isso só com ter conteúdo do YouTube.
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle" src="https://i.imgur.com/iUW8jvJ.jpg" />
+                            <div class="ml-3">
+                                <span class="text-white">Alexsander Telles</span><br>
+                                <small class="text-white">@alexvtelles</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">
+                            Cara graças a Deus que eu encontrei teu canal kkkkkk simplesmente
+                            f***!!
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLT55flHPwS-NnWpHdFjMOlCs3-jfvUX23pmCMD_WkE=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Marlon Silva</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Sensacional essas aulas!! Qualidade 10/10. </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLSZ62R3V3psTcI3esvt1Y_4aqGWrsk5MZhHrtJTUQ=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">João Oliveira</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Animal! Parabéns pelo conteúdo. Legal demais que tenhamos cada vez
+                            mais conteúdos assim e em português!</i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLSPvjMC2cM3VFKHFNHWPMmWN76gx5s267ErKLpI8_s=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Sthefano Carvalho</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Cara... não sou de comentar em videos no YT mas me senti obrigado a
+                            comentar no seu canal. Mto massa seus projetos, os tópicos ensinados
+                            abrangem bastante do cotidiano de um dev node. Seu conteúdo dá um
+                            baile nas aulas **** e ****** da **** mas enfim, parabéns e continue
+                            postando!!!</i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLQGTWX10qLUisn_axMPpf-P_BSMg-bAIS_o36en4Q=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Michael Lima</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Conteúdo nesse nível, nessa qualidade, de graça? Merece todo apoio.
+                            Inscrito no canal, vídeo compartilhado e curtido.</i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLQ7qoDY_kzAnNnE0aDgjTcDVegSBKJVNxO1yDj8KZQ=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Paulo Arthur Xavier</span><br>
+                                <small class="text-white">Comentário no Youtube</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Explicação melhor que essa não existe, tu é bom demais. Cheguei
+                            agora no terceiro episódio akaka, acho que hoje vou estudar até 1h,
+                            e amanhã termino o restinho dessa aula , top demais! ❤️</i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle"
+                                src="https://yt3.ggpht.com/ytc/AKedOLR7gntC2psKFRRhC4xHELYEeuJqbHyayrXO_NF9=s88-c-k-c0x00ffffff-no-rj" />
+                            <div class="ml-3">
+                                <span class="text-white">Victor Jacon</span><br>
+                                <small class="text-white">@jacon.victor</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Conteúdo sensacional mlk! Tá ajudando demais aqui, tu não faz idéia
+                            🙌</i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle" src="https://i.imgur.com/0i2UJCW.jpg" />
+                            <div class="ml-3">
+                                <span class="text-white">Lincoln Modesto</span><br>
+                                <small class="text-white">@lincolnmodest0</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card single-comment col-12 col-md-4">
+                        <i class="text-white">Silvio, parabéns por dedicar parte do seu tempo, pra ajudar outras
+                            pessoas, não tenho palavras mano pra agradecer até a minha esposa,
+                            ouvindo de tabela a live, ficou admirada com as ricas dicas que você
+                            esta passando. tamo junto men !!!
+                        </i>
+                        <div class="d-flex mt-4 align-items-center">
+                            <img class="rounded-circle" src="https://i.imgur.com/5B0WUIE.jpg" />
+                            <div class="ml-3">
+                                <span class="text-white">Davi Marçal</span><br>
+                                <small class="text-white">@davi_marcal</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="container">
+    <section class="container">
         <div class="row" style="margin-top: 150px;">
             <div class="col-5">
                 <img src="assets/img/section5.png">
             </div>
             <div class="col-6 center">
-                <h1 class="ubuntu" style="text-align: left;margin-top: 200px;">Silvio Sampaio,<br> mais conhecido como <span
-                        class="gradient">Maninho.</span></h1>
+                <h1 class="ubuntu" style="text-align: left;margin-top: 200px;">Silvio Sampaio,<br> mais conhecido
+                    como<br> <span class="gradient">Maninho.</span></h1>
                 <p class="m0 tl f17">Hello! I'm Silvio Sampaio, Entrepreneur, Technology and Design Speaker, IT & Design
                     Teacher, Full-Stack JS Programmer, specializing in React, React Native (Mobile Android & iOS),
                     NodeJS, and no-sql databases. User Experience Designer (UX) and User Interface (UI) focused on
@@ -142,7 +325,178 @@
 
             </div>
         </div>
-    </div>
+    </section>
+
+    <section class="container" style="margin-top: 200px;">
+        <div class="row">
+            <div class="col-7">
+                <h1 class="ubuntu" style="text-align: left;">Estamos com <br><span class="gradient">Vagas
+                        abertas!</span></h1><br><br>
+                <p style="margin-left: 0;"><img src="assets/img/check.png"> 123 aulas online disponíveis no portal do
+                    aluno. </p><br>
+                <p style="margin-left: 0;"><img src="assets/img/check.png"> + de 180h de mentorias gravadas e ao vivo.
+                </p><br>
+                <p style="margin-left: 0;"><img src="assets/img/check.png"> Acesso ao Slack para tirar dúvidas com o AJ.
+                </p><br>
+                <p style="margin-left: 0;"><img src="assets/img/check.png"> Mentores DC para te ajudar no que for
+                    preciso. </p><br>
+                <p style="margin-left: 0;"><img src="assets/img/check.png"> Acesso exclusivo ao Notion DC. </p><br>
+                <p style="margin-left: 0;"><img src="assets/img/check.png"> 2x cases de projetos reais para seu
+                    portfólio. </p>
+            </div>
+            <div class="col-5" style="text-align: center;">
+                <img src="assets/img/logosection.png">
+                <p class="ps">Curso completo</p><br>
+                <p class="pv"><b>R$ 79,90</b></p>
+                <p class="ps">Pagamento á vista</p><br>
+                <button type="button" class="btn btn-acesso-v">ACESSAR SALÃO NA MÃO</button>
+                <img src="assets/img/pagamento3.png" style="margin-top: 30px;">
+                <h1 class="ubuntu" style="text-align: center;margin-top: 60px;font-size: 35px;"><span
+                        class="gradient">Dificuldade</span> para fazer a<br> matrícula?</h1>
+                <p class="ps">Entre em contato com nosso time</p><br>
+                <p class="wpp"><img src="assets/img/wpp.png"> ATENDIMENTO VIA WHATSAPP</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container" style="margin-top: 200px;">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="ubuntu" style="text-align: center;">Perguntas <span class="gradient">Frequentes</span></h1>
+
+
+
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item" style="background: transparent;">
+                        <h2 class="accordion-header" id="headingOne" style="background: transparent;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne"
+                                style="color: #fff;background: transparent;font-size: 20px;">
+                                Se eu não entrar agora, <span class="gradient">&ensp; quando terei outra chance?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color: #fff;">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background: transparent;">
+                        <h2 class="accordion-header" id="headingOne2" style="background: transparent;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne2" aria-expanded="true" aria-controls="collapseOne2"
+                                style="color: #fff;background: transparent;font-size: 20px;">
+                                Se eu não entrar agora, <span class="gradient">&ensp; quando terei outra chance?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne2" class="accordion-collapse collapse" aria-labelledby="headingOne2"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color: #fff;">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background: transparent;">
+                        <h2 class="accordion-header" id="headingOne3" style="background: transparent;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne3" aria-expanded="true" aria-controls="collapseOne3"
+                                style="color: #fff;background: transparent;font-size: 20px;">
+                                Se eu não entrar agora, <span class="gradient">&ensp; quando terei outra chance?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne3" class="accordion-collapse collapse" aria-labelledby="headingOne3"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color: #fff;">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background: transparent;">
+                        <h2 class="accordion-header" id="headingOne4" style="background: transparent;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne4" aria-expanded="true" aria-controls="collapseOne4"
+                                style="color: #fff;background: transparent;font-size: 20px;">
+                                Se eu não entrar agora, <span class="gradient">&ensp; quando terei outra chance?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne4" class="accordion-collapse collapse" aria-labelledby="headingOne4"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color: #fff;">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background: transparent;">
+                        <h2 class="accordion-header" id="headingOne5" style="background: transparent;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne5" aria-expanded="true" aria-controls="collapseOne5"
+                                style="color: #fff;background: transparent;font-size: 20px;">
+                                Se eu não entrar agora, <span class="gradient">&ensp; quando terei outra chance?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne5" class="accordion-collapse collapse" aria-labelledby="headingOne5"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color: #fff;">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion-item" style="background: transparent;">
+                        <h2 class="accordion-header" id="headingOne6" style="background: transparent;">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne6" aria-expanded="true" aria-controls="collapseOne6"
+                                style="color: #fff;background: transparent;font-size: 20px;">
+                                Se eu não entrar agora, <span class="gradient">&ensp; quando terei outra chance?</span>
+                            </button>
+                        </h2>
+                        <div id="collapseOne6" class="accordion-collapse collapse" aria-labelledby="headingOne6"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body" style="color: #fff;">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until
+                                the collapse plugin adds the appropriate classes that we use to style each element.
+                                These classes control the overall appearance, as well as the showing and hiding via CSS
+                                transitions. You can modify any of this with custom CSS or overriding our default
+                                variables. It's also worth noting that just about any HTML can go within the
+                                <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 
@@ -154,8 +508,6 @@
 
     <!-- jQuery (obrigatório para plugins JavaScript do Bootstrap) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Inclui todos os plugins compilados (abaixo), ou inclua arquivos separadados se necessário -->
-    <!-- Última versão JavaScript compilada e minificada -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
