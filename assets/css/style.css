@@ -130,6 +130,11 @@ button.btn.btn-acesso-small:hover {
     border-radius: 20px;
 }
 
+.bgg{
+    background: linear-gradient(
+93.39deg, rgba(250, 64, 75, 0.09) -17.75%, rgba(255, 255, 255, 0.0486) 122.12%);
+}
+
 .carpb{
     padding-top: 70px;
     padding-bottom: 70px;
@@ -248,8 +253,17 @@ button.btn.btn-acesso-small:hover {
     margin-bottom: 20px !important;
 }
 
+.hlssb{
+    text-align: left;
+    margin-left: 0px;
+    font-family: ubuntu-regular;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px !important;
+}
+
 .check{
     margin-left: 0;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 768px) {
