@@ -241,9 +241,11 @@ button.btn.btn-acesso-small:hover {
 
 .hlss{
     text-align: left;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 0px;
     font-family: ubuntu-regular;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 20px !important;
 }
 
 .check{
