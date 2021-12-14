@@ -92,6 +92,14 @@ h2{
     color: #fff;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,90,40,1) 0%, rgba(228,0,131,1) 100%);
     border: 0;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+button.btn.btn-acesso:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+    color: #fff;
 }
 
 .btn-acesso-small{
@@ -106,8 +114,16 @@ h2{
     letter-spacing: 1px;
 }
 
+.carp{
+    background: linear-gradient(
+93.39deg, rgba(250, 64, 75, 0.09) -17.75%, rgba(255, 255, 255, 0.0486) 122.12%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+}
+
 .pagamento-img{
-    margin-top: 20px;
+    margin-top: 50px;
     width: auto;
 }
 
