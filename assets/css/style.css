@@ -226,7 +226,8 @@ button.btn.btn-acesso-small:hover {
 }
 
 .container{
-    margin-bottom: 250px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 .ml50{
@@ -236,6 +237,13 @@ button.btn.btn-acesso-small:hover {
 .h1s3{
     text-align: left;
     margin-top: 200px;
+}
+
+.hlss{
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 0px;
+    font-family: ubuntu-regular;
 }
 
 .check{
