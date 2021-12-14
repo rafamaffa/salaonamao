@@ -111,7 +111,15 @@ button.btn.btn-acesso:hover {
     color: #fff;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(240,90,40,1) 0%, rgba(228,0,131,1) 100%);
     border: 0;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
+    opacity: 1;
+    transition: 0.5s;
+}
+
+button.btn.btn-acesso-small:hover {
+    opacity: 0.7;
+    transition: 0.5s;
+    color: #fff;
 }
 
 .carp{
