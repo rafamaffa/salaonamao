@@ -122,6 +122,12 @@ button.btn.btn-acesso:hover {
     border-radius: 20px;
 }
 
+.carpb{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    border-radius: 20px;
+}
+
 .pagamento-img{
     margin-top: 50px;
     width: auto;
