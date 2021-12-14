@@ -168,7 +168,8 @@ button.btn.btn-acesso-small:hover {
     position: relative;
   }
 .single-comment {
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(255,255,255,0.03);
+        border-radius: 10px;
         padding: 21px;
         width: 420px;
         margin: 10px;
