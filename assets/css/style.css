@@ -33,8 +33,8 @@ p {
     font-size: 21px;
     line-height: 24px;
     vertical-align: top;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .f14{
@@ -294,6 +294,19 @@ button.btn.btn-acesso-v:hover {
     }
     .check{
         margin-left: auto;
+        text-align: center;
+    }
+
+    .f14{
+        width: auto;
+    }
+
+    .h2{
+        font-size: 25px;
+    }
+
+    .hlssb{
+        text-align: center
     }
   }
   
